@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   
   api.use([
     'forwarder:autoform-wizard@0.7.0',
-    'meteorhacks:flow-router'
+    'meteorhacks:flow-router@1.0.0'
   ], 'client');
   
   api.addFiles([
