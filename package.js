@@ -1,7 +1,7 @@
 Package.describe({
   name: 'forwarder:autoform-wizard-flow-router',
   summary: 'Flow Router bindings for AutoForm Wizard.',
-  version: '0.1.0',
+  version: '0.1.1',
   git: 'https://github.com/forwarder/meteor-wizard-flow-router.git'
 });
 
