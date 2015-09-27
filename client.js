@@ -1,9 +1,9 @@
-Wizard.registerRouter('meteorhacks:flow-router', {
+Wizard.registerRouter('kadira:flow-router', {
   go: function(name, stepId) {
     FlowRouter.go(name, this.getParams(stepId));
   },
   getParams: function(stepId) {
-    var route = Router.current()
+    var route = FlowRouter.current()
       , params = route.params || {};
 
     return _.extend(params, {step: stepId});
