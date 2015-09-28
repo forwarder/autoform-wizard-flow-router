@@ -9,7 +9,7 @@ ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
 forwarder:autoform-wizard@0.7.0
-forwarder:autoform-wizard-flow-router@0.1.0
+forwarder:autoform-wizard-flow-router@0.1.1
 geojson-utils@1.0.3
 html-tools@1.0.4
 htmljs@1.0.4
