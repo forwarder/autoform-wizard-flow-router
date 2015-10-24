@@ -12,6 +12,6 @@ Wizard.registerRouter('kadira:flow-router', {
     return FlowRouter.getParam('step');
   },
   path: function(name, stepId) {
-    return FlowRouter.go(name, this.getParams(stepId));
+    return FlowRouter.path(name, this.getParams(stepId));
   }
 });
