@@ -2,6 +2,9 @@ Wizard.registerRouter('kadira:flow-router', {
   go: function(name, stepId) {
     FlowRouter.go(name, this.getParams(stepId));
   },
+  reload: function(name, stepId) {
+     FlowRouter.reload(name, this.getParams(stepId));
+  },
   getParams: function(stepId) {
     var route = FlowRouter.current()
       , params = route.params || {};
