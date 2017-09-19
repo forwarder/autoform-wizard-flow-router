@@ -1,4 +1,4 @@
-Wizard.registerRouter('kadira:flow-router', {
+Wizard.registerRouter('ostrio:flow-router-extra', {
   go: function(name, stepId) {
     FlowRouter.go(name, this.getParams(stepId));
   },
